@@ -18,4 +18,10 @@ class IndexController extends AbstractActionController
     {
         return new ViewModel();
     }
+    
+    public function holaAction()
+    {
+    	echo "Hola Master Lino";
+    	return new ViewModel();
+    }
 }
